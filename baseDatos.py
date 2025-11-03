@@ -1,6 +1,5 @@
 from animal import Animal
 
-
 class BaseDatos:
     def __init__(self):
         self.animales = []
@@ -67,4 +66,5 @@ class BaseDatos:
                     del self.produccionHuevos[codigo]
                 print(f"el pollo con codigo {codigo} fue eliminado")
                 return
+
         print("No se encontr a un pollo con este codigo")
