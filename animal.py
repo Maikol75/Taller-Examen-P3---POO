@@ -4,5 +4,5 @@ class Animal:
         self.edad = int(edad)
         self.raza = raza
         
-    def __str__(self):
+    def devolver(self):
         return f"Código: {self.codigo}, Raza: {self.raza}, Edad: {self.edad} años"
