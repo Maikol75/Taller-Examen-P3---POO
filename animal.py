@@ -4,7 +4,6 @@ class Animal:
         self.__raza = raza
         self.__edad = int(edad)
 
-    # Getters
     def getCodigo(self):
         return self.__codigo
 
@@ -14,7 +13,6 @@ class Animal:
     def getEdad(self):
         return self.__edad
 
-    # Setters
     def setCodigo(self, nuevo_codigo):
         self.__codigo = nuevo_codigo
 
